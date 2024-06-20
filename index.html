@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>CRM Dashboard</title>
+</head>
+<body>
+    <!--Wrapper-->
+    <div class="wrapper">
+        <!--Navigation pannel-->
+        <aside>
+            <div class="content">
+                <a href="index.html"><img src="icons/crm-logo.svg" alt="CRM Logo"><h2>Dashboard</h2><span>v.01</span></a>
+                <ul>
+                    <li title="Dashboard"><a href="index.html"><img src="icons/key-square.svg" alt="Dashboard Icon"><p>Dashboard</p></a></li>
+                    <li title="Product"><a href="#"><img src="icons/3d-square.svg" alt="Product Icon"><p>Product</p><span>&gt;</span></a></li>
+                    <li title="Customers" class="active"><a href="index.html"><img src="icons/user-square.svg" alt="Customers Icon"><p>Customers</p><span>&gt;</span></a></li>
+                    <li title="Income"><a href="#"><img src="icons/wallet-money.svg" alt="Income Icon"><p>Income</p><span>&gt;</span></a></li>
+                    <li title="Promote"><a href="#"><img src="icons/discount-shape.svg" alt="Promote Icon"><p>Promote</p><span>&gt;</span></a></li>
+                    <li title="Help"><a href="#"><img src="icons/message-question.svg" alt="Help Icon"><p>Help</p><span>&gt;</span></a></li>
+                </ul>
+                <div class="profile">
+                    <img src="icons/avatar.jpg" alt="Profile Photo" width="42" height="42">
+                    <div class="data">
+                        <h4>Evano</h4>
+                        <p>Project Manager</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!--Main CRM-->
+        <section>
+            <div class="main-content">
+                <h2>Hello Evano &#128075;,</h2>
+                <div class="crm-content">
+                    <div class="search-pannel">
+                        <div class="discr">
+                            <h2>All Customers</h2>
+                            <p>Active Members</p>
+                        </div>
+                        <input type="search" placeholder="Search">
+                    </div>
+                    <table>
+                        <tr>
+                            <th>Customer Name</th>
+                            <th>Company</th>
+                            <th>Phone Number</th>
+                            <th>Email</th>
+                            <th>Country</th>
+                            <th>Status</th>
+                        </tr>
+                        <tr>
+                            <td>Jane Cooper</td>
+                            <td>Microsoft</td>
+                            <td>(225) 555-0118</td>
+                            <td>jane@microsoft.com</td>
+                            <td>United States</td>
+                            <td><div class="status-active">Active</div></td>
+                        </tr>
+                        <tr>
+                            <td>Floyd Miles</td>
+                            <td>Yahoo</td>
+                            <td>(205) 555-0100</td>
+                            <td>floyd@yahoo.com</td>
+                            <td>Kiribati</td>
+                            <td><div class="status-inactive">Inactive</div></td>
+                        </tr>
+                        <tr>
+                            <td>Ronald Richards</td>
+                            <td>Adobe</td>
+                            <td>(302) 555-0107</td>
+                            <td>ronald@adobe.com</td>
+                            <td>Israel</td>
+                            <td><div class="status-inactive">Inactive</div></td>
+                        </tr>
+                        <tr>
+                            <td>Marvin McKinney</td>
+                            <td>Tesla</td>
+                            <td>(252) 555-0126</td>
+                            <td>marvin@tesla.com</td>
+                            <td>Iran</td>
+                            <td><div class="status-active">Active</div></td>
+                        </tr>
+                        <tr>
+                            <td>Jerome Bell</td>
+                            <td>Google</td>
+                            <td>(629) 555-0129</td>
+                            <td>jerome@google.com</td>
+                            <td>Réunion</td>
+                            <td><div class="status-active">Active</div></td>
+                        </tr>
+                        <tr>
+                            <td>Kathryn Murphy</td>
+                            <td>Microsoft</td>
+                            <td>(406) 555-0120</td>
+                            <td>kathryn@microsoft.com</td>
+                            <td>Curaçao</td>
+                            <td><div class="status-active">Active</div></td>
+                        </tr>
+                        <tr>
+                            <td>Jacob Jones</td>
+                            <td>Yahoo</td>
+                            <td>(208) 555-0112</td>
+                            <td>jacob@yahoo.com</td>
+                            <td>Brazil</td>
+                            <td><div class="status-active">Active</div></td>
+                        </tr>
+                        <tr>
+                            <td>Kristin Watson</td>
+                            <td>Facebook</td>
+                            <td>(704) 555-0127</td>
+                            <td>kristin@facebook.com</td>
+                            <td>Åland Islands</td>
+                            <td><div class="status-inactive">Inactive</div></td>
+                        </tr>
+                    </table>
+                    <footer>
+                        <p>Showing data 1 to 8 of  256K entries</p>
+                        <div class="pagination">
+                            <a href="#">&lt;</a>
+                            <a href="index.html" class="active-page">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#">4</a>
+                            <a href="#">...</a>
+                            <a href="#">40</a>
+                            <a href="#">&gt;</a>
+                          </div>
+                    </footer>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
